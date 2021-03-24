@@ -20,6 +20,16 @@
 		80015D89581BBA604E039CE9 /* libPods-PahamifyStorybook-tvOS.a in Frameworks */ = {isa = PBXBuildFile; fileRef = E2BEF18F65C85D246CA82C4B /* libPods-PahamifyStorybook-tvOS.a */; };
 		81AB9BB82411601600AC10FF /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 81AB9BB72411601600AC10FF /* LaunchScreen.storyboard */; };
 		A5B21649F3466642AE99377C /* libPods-PahamifyStorybook-tvOSTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 5721DF30B31EEE22E2ABCE1F /* libPods-PahamifyStorybook-tvOSTests.a */; };
+		F8964530260AF0F000B415B9 /* Nunito-Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 63AFFCA6244141ADA0A3A01A /* Nunito-Bold.ttf */; };
+		F8964531260AF0F000B415B9 /* Nunito-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 266AD64A7D1C41AC94B81804 /* Nunito-Regular.ttf */; };
+		F8964532260AF0F000B415B9 /* Nunito-SemiBold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 4AEA757682584CFFBFB40FB4 /* Nunito-SemiBold.ttf */; };
+		F8964533260AF0F000B415B9 /* Quicksand-Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 8B046A2C10AF422391F9BB39 /* Quicksand-Bold.ttf */; };
+		F8964534260AF0F000B415B9 /* Quicksand-Medium.ttf in Resources */ = {isa = PBXBuildFile; fileRef = C3C69F56002F400F8A959CED /* Quicksand-Medium.ttf */; };
+		F8964535260AF0F000B415B9 /* Quicksand-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 66007678542A4B9CB52066C4 /* Quicksand-Regular.ttf */; };
+		F8964536260AF0F000B415B9 /* OpenSans-Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = C3F3C355465B4860BD3A615B /* OpenSans-Bold.ttf */; };
+		F8964537260AF0F000B415B9 /* OpenSans-ExtraBold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 5797D1090FB64F95826245EA /* OpenSans-ExtraBold.ttf */; };
+		F8964538260AF0F000B415B9 /* OpenSans-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 0D756B5A6B6147A483893C95 /* OpenSans-Regular.ttf */; };
+		F8964539260AF0F000B415B9 /* OpenSans-SemiBold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 1FCB7896E8284D24BC784ED0 /* OpenSans-SemiBold.ttf */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -45,24 +55,34 @@
 		00E356F11AD99517003FC87E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		00E356F21AD99517003FC87E /* PahamifyStorybookTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PahamifyStorybookTests.m; sourceTree = "<group>"; };
 		0574EAAD18F7F521478EF460 /* Pods-PahamifyStorybook.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PahamifyStorybook.release.xcconfig"; path = "Target Support Files/Pods-PahamifyStorybook/Pods-PahamifyStorybook.release.xcconfig"; sourceTree = "<group>"; };
+		0D756B5A6B6147A483893C95 /* OpenSans-Regular.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = "OpenSans-Regular.ttf"; path = "../src/assets/fonts/OpenSans-Regular.ttf"; sourceTree = "<group>"; };
 		13B07F961A680F5B00A75B9A /* PahamifyStorybook.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PahamifyStorybook.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		13B07FAF1A68108700A75B9A /* AppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = AppDelegate.h; path = PahamifyStorybook/AppDelegate.h; sourceTree = "<group>"; };
 		13B07FB01A68108700A75B9A /* AppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = AppDelegate.m; path = PahamifyStorybook/AppDelegate.m; sourceTree = "<group>"; };
 		13B07FB51A68108700A75B9A /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; name = Images.xcassets; path = PahamifyStorybook/Images.xcassets; sourceTree = "<group>"; };
 		13B07FB61A68108700A75B9A /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = Info.plist; path = PahamifyStorybook/Info.plist; sourceTree = "<group>"; };
 		13B07FB71A68108700A75B9A /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = main.m; path = PahamifyStorybook/main.m; sourceTree = "<group>"; };
+		1FCB7896E8284D24BC784ED0 /* OpenSans-SemiBold.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = "OpenSans-SemiBold.ttf"; path = "../src/assets/fonts/OpenSans-SemiBold.ttf"; sourceTree = "<group>"; };
 		22D26E05919F99E97FDDA02A /* Pods-PahamifyStorybook-PahamifyStorybookTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PahamifyStorybook-PahamifyStorybookTests.debug.xcconfig"; path = "Target Support Files/Pods-PahamifyStorybook-PahamifyStorybookTests/Pods-PahamifyStorybook-PahamifyStorybookTests.debug.xcconfig"; sourceTree = "<group>"; };
+		266AD64A7D1C41AC94B81804 /* Nunito-Regular.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = "Nunito-Regular.ttf"; path = "../src/assets/fonts/Nunito-Regular.ttf"; sourceTree = "<group>"; };
 		2D02E47B1E0B4A5D006451C7 /* PahamifyStorybook-tvOS.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "PahamifyStorybook-tvOS.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		2D02E4901E0B4A5D006451C7 /* PahamifyStorybook-tvOSTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "PahamifyStorybook-tvOSTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		45A782B99B467FE0BB2B56E9 /* Pods-PahamifyStorybook-tvOSTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PahamifyStorybook-tvOSTests.release.xcconfig"; path = "Target Support Files/Pods-PahamifyStorybook-tvOSTests/Pods-PahamifyStorybook-tvOSTests.release.xcconfig"; sourceTree = "<group>"; };
 		48537E8C705C7FBBF24C1416 /* libPods-PahamifyStorybook.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-PahamifyStorybook.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		48AB94A6011670821F9ED4EA /* Pods-PahamifyStorybook-tvOS.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PahamifyStorybook-tvOS.release.xcconfig"; path = "Target Support Files/Pods-PahamifyStorybook-tvOS/Pods-PahamifyStorybook-tvOS.release.xcconfig"; sourceTree = "<group>"; };
+		4AEA757682584CFFBFB40FB4 /* Nunito-SemiBold.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = "Nunito-SemiBold.ttf"; path = "../src/assets/fonts/Nunito-SemiBold.ttf"; sourceTree = "<group>"; };
 		5721DF30B31EEE22E2ABCE1F /* libPods-PahamifyStorybook-tvOSTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-PahamifyStorybook-tvOSTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		5797D1090FB64F95826245EA /* OpenSans-ExtraBold.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = "OpenSans-ExtraBold.ttf"; path = "../src/assets/fonts/OpenSans-ExtraBold.ttf"; sourceTree = "<group>"; };
+		63AFFCA6244141ADA0A3A01A /* Nunito-Bold.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = "Nunito-Bold.ttf"; path = "../src/assets/fonts/Nunito-Bold.ttf"; sourceTree = "<group>"; };
+		66007678542A4B9CB52066C4 /* Quicksand-Regular.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = "Quicksand-Regular.ttf"; path = "../src/assets/fonts/Quicksand-Regular.ttf"; sourceTree = "<group>"; };
 		76C9213307CF4D4AE28A537B /* Pods-PahamifyStorybook-tvOS.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PahamifyStorybook-tvOS.debug.xcconfig"; path = "Target Support Files/Pods-PahamifyStorybook-tvOS/Pods-PahamifyStorybook-tvOS.debug.xcconfig"; sourceTree = "<group>"; };
 		810FA276AAC132E585EF7CE2 /* Pods-PahamifyStorybook-PahamifyStorybookTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PahamifyStorybook-PahamifyStorybookTests.release.xcconfig"; path = "Target Support Files/Pods-PahamifyStorybook-PahamifyStorybookTests/Pods-PahamifyStorybook-PahamifyStorybookTests.release.xcconfig"; sourceTree = "<group>"; };
 		81AB9BB72411601600AC10FF /* LaunchScreen.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = LaunchScreen.storyboard; path = PahamifyStorybook/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		8712DCE390A33A97A350F116 /* Pods-PahamifyStorybook-tvOSTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PahamifyStorybook-tvOSTests.debug.xcconfig"; path = "Target Support Files/Pods-PahamifyStorybook-tvOSTests/Pods-PahamifyStorybook-tvOSTests.debug.xcconfig"; sourceTree = "<group>"; };
+		8B046A2C10AF422391F9BB39 /* Quicksand-Bold.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = "Quicksand-Bold.ttf"; path = "../src/assets/fonts/Quicksand-Bold.ttf"; sourceTree = "<group>"; };
 		9948099496F93F7D9E605841 /* Pods-PahamifyStorybook.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PahamifyStorybook.debug.xcconfig"; path = "Target Support Files/Pods-PahamifyStorybook/Pods-PahamifyStorybook.debug.xcconfig"; sourceTree = "<group>"; };
+		C3C69F56002F400F8A959CED /* Quicksand-Medium.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = "Quicksand-Medium.ttf"; path = "../src/assets/fonts/Quicksand-Medium.ttf"; sourceTree = "<group>"; };
+		C3F3C355465B4860BD3A615B /* OpenSans-Bold.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = "OpenSans-Bold.ttf"; path = "../src/assets/fonts/OpenSans-Bold.ttf"; sourceTree = "<group>"; };
 		E2BEF18F65C85D246CA82C4B /* libPods-PahamifyStorybook-tvOS.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-PahamifyStorybook-tvOS.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		ED297162215061F000B7C4FE /* JavaScriptCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = JavaScriptCore.framework; path = System/Library/Frameworks/JavaScriptCore.framework; sourceTree = SDKROOT; };
 		ED2971642150620600B7C4FE /* JavaScriptCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = JavaScriptCore.framework; path = Platforms/AppleTVOS.platform/Developer/SDKs/AppleTVOS12.0.sdk/System/Library/Frameworks/JavaScriptCore.framework; sourceTree = DEVELOPER_DIR; };
@@ -165,6 +185,7 @@
 				83CBBA001A601CBA00E9B192 /* Products */,
 				2D16E6871FA4F8E400B85C8A /* Frameworks */,
 				A563F2EC0F957DA581B81EA8 /* Pods */,
+				CD4F674EBEC443B3A7A72733 /* Resources */,
 			);
 			indentWidth = 2;
 			sourceTree = "<group>";
@@ -194,8 +215,24 @@
 				8712DCE390A33A97A350F116 /* Pods-PahamifyStorybook-tvOSTests.debug.xcconfig */,
 				45A782B99B467FE0BB2B56E9 /* Pods-PahamifyStorybook-tvOSTests.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
+			sourceTree = "<group>";
+		};
+		CD4F674EBEC443B3A7A72733 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				63AFFCA6244141ADA0A3A01A /* Nunito-Bold.ttf */,
+				266AD64A7D1C41AC94B81804 /* Nunito-Regular.ttf */,
+				4AEA757682584CFFBFB40FB4 /* Nunito-SemiBold.ttf */,
+				8B046A2C10AF422391F9BB39 /* Quicksand-Bold.ttf */,
+				C3C69F56002F400F8A959CED /* Quicksand-Medium.ttf */,
+				66007678542A4B9CB52066C4 /* Quicksand-Regular.ttf */,
+				C3F3C355465B4860BD3A615B /* OpenSans-Bold.ttf */,
+				5797D1090FB64F95826245EA /* OpenSans-ExtraBold.ttf */,
+				0D756B5A6B6147A483893C95 /* OpenSans-Regular.ttf */,
+				1FCB7896E8284D24BC784ED0 /* OpenSans-SemiBold.ttf */,
+			);
+			name = Resources;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -209,7 +246,6 @@
 				00E356EA1AD99517003FC87E /* Sources */,
 				00E356EB1AD99517003FC87E /* Frameworks */,
 				00E356EC1AD99517003FC87E /* Resources */,
-				D44C6CD84FA836E5517C599C /* [CP] Embed Pods Frameworks */,
 				35A51304CF8AE879D2F959BE /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
@@ -232,7 +268,6 @@
 				13B07F8C1A680F5B00A75B9A /* Frameworks */,
 				13B07F8E1A680F5B00A75B9A /* Resources */,
 				00DD1BFF1BD5951E006B06BC /* Bundle React Native code and images */,
-				89786D0105459CE41E1F0669 /* [CP] Embed Pods Frameworks */,
 				5B8FE0290CB097E0FC5E3FCD /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
@@ -342,6 +377,16 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F8964530260AF0F000B415B9 /* Nunito-Bold.ttf in Resources */,
+				F8964531260AF0F000B415B9 /* Nunito-Regular.ttf in Resources */,
+				F8964532260AF0F000B415B9 /* Nunito-SemiBold.ttf in Resources */,
+				F8964533260AF0F000B415B9 /* Quicksand-Bold.ttf in Resources */,
+				F8964534260AF0F000B415B9 /* Quicksand-Medium.ttf in Resources */,
+				F8964535260AF0F000B415B9 /* Quicksand-Regular.ttf in Resources */,
+				F8964536260AF0F000B415B9 /* OpenSans-Bold.ttf in Resources */,
+				F8964537260AF0F000B415B9 /* OpenSans-ExtraBold.ttf in Resources */,
+				F8964538260AF0F000B415B9 /* OpenSans-Regular.ttf in Resources */,
+				F8964539260AF0F000B415B9 /* OpenSans-SemiBold.ttf in Resources */,
 				81AB9BB82411601600AC10FF /* LaunchScreen.storyboard in Resources */,
 				13B07FBF1A68108700A75B9A /* Images.xcassets in Resources */,
 			);
@@ -473,24 +518,6 @@
 			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
 			showEnvVarsInLog = 0;
 		};
-		89786D0105459CE41E1F0669 /* [CP] Embed Pods Frameworks */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-PahamifyStorybook/Pods-PahamifyStorybook-frameworks.sh",
-				"${PODS_XCFRAMEWORKS_BUILD_DIR}/OpenSSL/OpenSSL.framework/OpenSSL",
-			);
-			name = "[CP] Embed Pods Frameworks";
-			outputPaths = (
-				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/OpenSSL.framework",
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-PahamifyStorybook/Pods-PahamifyStorybook-frameworks.sh\"\n";
-			showEnvVarsInLog = 0;
-		};
 		8FE57BA62D7BCCA27C3719FE /* [CP] Check Pods Manifest.lock */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
@@ -533,24 +560,6 @@
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
 			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
-			showEnvVarsInLog = 0;
-		};
-		D44C6CD84FA836E5517C599C /* [CP] Embed Pods Frameworks */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-PahamifyStorybook-PahamifyStorybookTests/Pods-PahamifyStorybook-PahamifyStorybookTests-frameworks.sh",
-				"${PODS_XCFRAMEWORKS_BUILD_DIR}/OpenSSL/OpenSSL.framework/OpenSSL",
-			);
-			name = "[CP] Embed Pods Frameworks";
-			outputPaths = (
-				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/OpenSSL.framework",
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-PahamifyStorybook-PahamifyStorybookTests/Pods-PahamifyStorybook-PahamifyStorybookTests-frameworks.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
 		FD10A7F022414F080027D42C /* Start Packager */ = {

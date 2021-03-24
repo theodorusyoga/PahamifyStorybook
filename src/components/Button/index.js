@@ -1,17 +1,31 @@
 import React from 'react';
 import PropTypes from 'prop-types';
-import {TouchableHighlight} from 'react-native';
+import {TouchableOpacity, Text} from 'react-native';
+import getStyles, {buttonInsets} from 'components/Button/styles';
+import textStyles from 'components/TextView/styles';
 
-export default function Button({onPress, children}) {
-  return <TouchableHighlight onPress={onPress}>{children}</TouchableHighlight>;
+export default function Button({disabled, onPress, text}) {
+  const styles = getStyles(disabled);
+
+  return (
+    <TouchableOpacity
+      style={styles.button}
+      onPress={onPress}
+      hitSlop={buttonInsets}
+      disabled={disabled}>
+      <Text style={{...textStyles.h3, ...styles.buttonText}}>{text}</Text>
+    </TouchableOpacity>
+  );
 }
 
 Button.defaultProps = {
-  children: null,
+  disabled: false,
   onPress: () => {},
+  text: 'Button',
 };
 
 Button.propTypes = {
-  children: PropTypes.node,
+  disabled: PropTypes.bool,
   onPress: PropTypes.func,
+  text: PropTypes.string,
 };
